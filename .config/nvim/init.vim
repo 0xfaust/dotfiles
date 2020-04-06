@@ -45,3 +45,5 @@ set nu
 highlight clear LineNr
 
 set updatetime=250
+
+au BufNewFile *.py 0r ~/.config/nvim/templates/py3_header.template
